@@ -1,0 +1,50 @@
+.dropdownmenu {
+    width:100%;
+}
+
+.dropdownmenu ul, .dropdownmenu li{
+    margin: 0px;
+    padding:0px;
+}
+
+.dropdownmenu ul{
+    background-color: black;
+    list-style: none;
+    width: 100%;
+}
+
+.dropdownmenu li{
+    float:left;
+    position:relative;
+    width: auto;
+}
+
+.dropdownmenu a{
+    background-color: #3d454a;
+    color:white;
+    display: block;
+    font: bold 12px/20px sans-serif;
+    padding: 10px 63px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dropdownmenu li:hover a{
+    background-color: black;
+}
+
+  img {
+    margin: 17px; 
+  }
+
+  .contenedor {
+    text-align: center;
+    display: block;
+  }
+
+  
+  .image-body {
+    width: 200px;
+    height: 200px;
+}
+

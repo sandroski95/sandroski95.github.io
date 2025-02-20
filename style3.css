@@ -1,0 +1,166 @@
+.dropdownmenu {
+    width:100%;
+}
+
+.dropdownmenu ul, .dropdownmenu li{
+    margin: 0px;
+    padding:0px;
+}
+
+.dropdownmenu ul{
+    background-color: black;
+    list-style: none;
+    width: 100%;
+}
+
+.dropdownmenu li{
+    float:left;
+    position:relative;
+    width: auto;
+}
+
+.dropdownmenu a{
+    background-color: #3d454a;
+    color:white;
+    display: block;
+    font: bold 12px/20px sans-serif;
+    padding: 10px 65px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dropdownmenu li:hover a{
+    background-color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 2;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+header {
+    background-color: #3d454a;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Sección de retos */
+.retos {
+    padding: 40px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.retos h2 {
+    color: #333;
+}
+
+.imagenes-retos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #327538;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Estilo para la sección de retos */
+.retos {
+    padding: 40px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/* Contenedor para los cuadros de retos */
+.retos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilo para cada cuadro de reto */
+.reto-box {
+    background-color: #92d274;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.reto-box:hover {
+    transform: scale(1.05);
+}
+
+.reto-box h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.reto-box p {
+    font-size: 16px;
+    color: #555;
+}
+
+.contenedor-video-mapa {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 5px; 
+    flex-wrap: wrap; 
+}
+
+.mapa-conceptual img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.mapa-conceptual {
+    margin-top: 20px; 
+    margin-left: 40px; 
+    padding: 20px; 
+}
+
